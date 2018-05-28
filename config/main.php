@@ -19,9 +19,9 @@ $config['log']=true;
 $config ['nfmail'] = "ALEX";
 $config ['fmail'] = "tbot@tks.ms";
 //Exchange Web server config
-$config ['ews_server'] = "mail.gazprom-neft.ru";
-$config ['ews_login'] = "gazprom-neft\\yuzhakov.ng";
-$config ['ews_pass'] = "JgnbvJ1";
+$config ['ews_server'] = "";
+$config ['ews_login'] = "";
+$config ['ews_pass'] = "";
 
 $config['phantomjs']='/usr/bin/phantomjs';
 

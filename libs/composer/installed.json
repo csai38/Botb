@@ -1,0 +1,908 @@
+[
+    {
+        "name": "ambalus/dbsimple",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Ambalus/DbSimple.git",
+            "reference": "9c19a7d955240bff18a8d669e5d970662b6907b3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Ambalus/DbSimple/zipball/9c19a7d955240bff18a8d669e5d970662b6907b3",
+            "reference": "9c19a7d955240bff18a8d669e5d970662b6907b3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "time": "2017-03-28T04:26:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Koterov",
+                "email": "dmitry.koterov@gmail.com"
+            },
+            {
+                "name": "Sergey Bondarenko",
+                "email": "s.bondarenko@ambalus.ru"
+            }
+        ],
+        "description": "Interface to work with various DBs.",
+        "keywords": [
+            "Simple",
+            "db"
+        ]
+    },
+    {
+        "name": "dmelo/pchart",
+        "version": "2.1.4",
+        "version_normalized": "2.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dmelo/pChart.git",
+            "reference": "9ca8849ffbd3810e6be204e59274a07d149e7bcb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dmelo/pChart/zipball/9ca8849ffbd3810e6be204e59274a07d149e7bcb",
+            "reference": "9ca8849ffbd3810e6be204e59274a07d149e7bcb",
+            "shasum": ""
+        },
+        "time": "2014-07-04T19:00:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": "./library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "library/"
+        ],
+        "description": "pChart is a PHP library that will help you to create anti-aliased charts or pictures directly from your web server. You can then display the result in the client browser, sent it by mail or insert it into PDFs. pChart provide object oriented coding syntax and is fully in line with the new web standards allowing you to enhance your web2.0 applications.",
+        "homepage": "http://www.pchart.net/"
+    },
+    {
+        "name": "geerlingguy/imap",
+        "version": "1.x-dev",
+        "version_normalized": "1.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/geerlingguy/Imap.git",
+            "reference": "c4b54e52576bf71a93045d2a4581589eab9a00b6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/geerlingguy/Imap/zipball/c4b54e52576bf71a93045d2a4581589eab9a00b6",
+            "reference": "c4b54e52576bf71a93045d2a4581589eab9a00b6",
+            "shasum": ""
+        },
+        "time": "2013-10-10T14:12:06+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "JJG/Imap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeff Geerling",
+                "email": "jeff@jeffgeerling.com"
+            }
+        ],
+        "description": "A PHP wrapper class for PHP's IMAP-related email handling functions."
+    },
+    {
+        "name": "jakoch/phantomjs-installer",
+        "version": "2.1.1-p08",
+        "version_normalized": "2.1.1.0-patch08",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jakoch/phantomjs-installer.git",
+            "reference": "7775820cf5eae8962cf68ab44757238e4d3136cc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jakoch/phantomjs-installer/zipball/7775820cf5eae8962cf68ab44757238e4d3136cc",
+            "reference": "7775820cf5eae8962cf68ab44757238e4d3136cc",
+            "shasum": ""
+        },
+        "require": {
+            "ext-bz2": "*",
+            "ext-openssl": "*",
+            "php": ">5.3"
+        },
+        "require-dev": {
+            "composer/composer": "^1.2",
+            "phpunit/phpunit": "^4.8"
+        },
+        "time": "2017-01-10T09:56:38+00:00",
+        "type": "custom-installer",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhantomInstaller\\Test\\": "tests/"
+            },
+            "psr-0": {
+                "PhantomInstaller\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jens-André Koch",
+                "email": "jakoch@web.de"
+            }
+        ],
+        "description": "A Composer package which installs the PhantomJS binary (Linux, Windows, Mac) into `/bin` of your project.",
+        "keywords": [
+            "binaries",
+            "headless",
+            "phantomjs"
+        ]
+    },
+    {
+        "name": "jamesiarmes/php-ntlm",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jamesiarmes/php-ntlm.git",
+            "reference": "08fa988af7506b8dc366737b06c86633ba8cecbc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jamesiarmes/php-ntlm/zipball/08fa988af7506b8dc366737b06c86633ba8cecbc",
+            "reference": "08fa988af7506b8dc366737b06c86633ba8cecbc",
+            "shasum": ""
+        },
+        "require": {
+            "ext-soap": "*",
+            "php": ">=5.3.9"
+        },
+        "time": "2017-10-04T01:14:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jamesiarmes\\PhpNtlm\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Armes",
+                "email": "jamesiarmes@gmail.com"
+            }
+        ],
+        "description": "Library for communicating with Microsoft services using NTLM authentication."
+    },
+    {
+        "name": "jonnyw/php-phantomjs",
+        "version": "v4.6.1",
+        "version_normalized": "4.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jonnnnyw/php-phantomjs.git",
+            "reference": "f35764503f6828908fd1108c960080edf915eabe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jonnnnyw/php-phantomjs/zipball/f35764503f6828908fd1108c960080edf915eabe",
+            "reference": "f35764503f6828908fd1108c960080edf915eabe",
+            "shasum": ""
+        },
+        "require": {
+            "jakoch/phantomjs-installer": "2.1.1-p08",
+            "php": ">=5.4.0",
+            "symfony/config": "~2.3|~3.0",
+            "symfony/dependency-injection": "~2.3|~3.0",
+            "symfony/filesystem": "~2.3|~3.0",
+            "symfony/yaml": "~2.3|~3.0",
+            "twig/twig": "~1.16"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "smalot/pdfparser": "~0.9",
+            "zendframework/zendpdf": "~2.0"
+        },
+        "time": "2018-04-03T17:45:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "JonnyW\\PhantomJs\\": "src"
+            },
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonny Wenmoth",
+                "email": "contact@jonnyw.me",
+                "homepage": "http://jonnyw.me/"
+            }
+        ],
+        "description": "A PHP wrapper for loading pages through PhantomJS",
+        "keywords": [
+            "Headless Browser",
+            "phantomjs",
+            "testing"
+        ]
+    },
+    {
+        "name": "php-ews/php-ews",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jamesiarmes/php-ews.git",
+            "reference": "405f03cb679eff59c84f223962c9cadf14b38450"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jamesiarmes/php-ews/zipball/405f03cb679eff59c84f223962c9cadf14b38450",
+            "reference": "405f03cb679eff59c84f223962c9cadf14b38450",
+            "shasum": ""
+        },
+        "require": {
+            "ext-soap": "*",
+            "jamesiarmes/php-ntlm": "~1.0",
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "mustache/mustache": "~2.0"
+        },
+        "time": "2017-10-04T01:18:36+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jamesiarmes\\PhpEws\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Armes",
+                "email": "jamesiarmes@gmail.com"
+            }
+        ],
+        "description": "Library for communicating with Exchange Web Services.",
+        "homepage": "http://jamesarmes.com/php-ews/"
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "symfony/config",
+        "version": "v3.4.9",
+        "version_normalized": "3.4.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/config.git",
+            "reference": "7c2a9d44f4433863e9bca682e7f03609234657f9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/config/zipball/7c2a9d44f4433863e9bca682e7f03609234657f9",
+            "reference": "7c2a9d44f4433863e9bca682e7f03609234657f9",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/filesystem": "~2.8|~3.0|~4.0"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.3",
+            "symfony/finder": "<3.3"
+        },
+        "require-dev": {
+            "symfony/dependency-injection": "~3.3|~4.0",
+            "symfony/event-dispatcher": "~3.3|~4.0",
+            "symfony/finder": "~3.3|~4.0",
+            "symfony/yaml": "~3.0|~4.0"
+        },
+        "suggest": {
+            "symfony/yaml": "To use the yaml reference dumper"
+        },
+        "time": "2018-03-19T22:32:39+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Config\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Config Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/dependency-injection",
+        "version": "v3.4.9",
+        "version_normalized": "3.4.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dependency-injection.git",
+            "reference": "54ff9d78b56429f9a1ac12e60bfb6d169c0468e3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/54ff9d78b56429f9a1ac12e60bfb6d169c0468e3",
+            "reference": "54ff9d78b56429f9a1ac12e60bfb6d169c0468e3",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "psr/container": "^1.0"
+        },
+        "conflict": {
+            "symfony/config": "<3.3.7",
+            "symfony/finder": "<3.3",
+            "symfony/proxy-manager-bridge": "<3.4",
+            "symfony/yaml": "<3.4"
+        },
+        "provide": {
+            "psr/container-implementation": "1.0"
+        },
+        "require-dev": {
+            "symfony/config": "~3.3|~4.0",
+            "symfony/expression-language": "~2.8|~3.0|~4.0",
+            "symfony/yaml": "~3.4|~4.0"
+        },
+        "suggest": {
+            "symfony/config": "",
+            "symfony/expression-language": "For using expressions in service container configuration",
+            "symfony/finder": "For using double-star glob patterns or when GLOB_BRACE portability is required",
+            "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
+            "symfony/yaml": ""
+        },
+        "time": "2018-04-29T14:04:08+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\DependencyInjection\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony DependencyInjection Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/filesystem",
+        "version": "v3.4.9",
+        "version_normalized": "3.4.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/filesystem.git",
+            "reference": "253a4490b528597aa14d2bf5aeded6f5e5e4a541"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/253a4490b528597aa14d2bf5aeded6f5e5e4a541",
+            "reference": "253a4490b528597aa14d2bf5aeded6f5e5e4a541",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2018-02-22T10:48:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Filesystem\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Filesystem Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/options-resolver",
+        "version": "v3.4.8",
+        "version_normalized": "3.4.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/options-resolver.git",
+            "reference": "f3109a6aedd20e35c3a33190e932c2b063b7b50e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/options-resolver/zipball/f3109a6aedd20e35c3a33190e932c2b063b7b50e",
+            "reference": "f3109a6aedd20e35c3a33190e932c2b063b7b50e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2018-01-11T07:56:07+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\OptionsResolver\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony OptionsResolver Component",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "config",
+            "configuration",
+            "options"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-iconv",
+        "version": "v1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-iconv.git",
+            "reference": "bd515d8f392730c833bc1ba993a4f598da64fa5b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/bd515d8f392730c833bc1ba993a4f598da64fa5b",
+            "reference": "bd515d8f392730c833bc1ba993a4f598da64fa5b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-iconv": "For best performance"
+        },
+        "time": "2018-01-30T19:27:44+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Iconv\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Iconv extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "iconv",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "v3.4.9",
+        "version_normalized": "3.4.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "033cfa61ef06ee0847e056e530201842b6e926c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/033cfa61ef06ee0847e056e530201842b6e926c3",
+            "reference": "033cfa61ef06ee0847e056e530201842b6e926c3",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "conflict": {
+            "symfony/console": "<3.4"
+        },
+        "require-dev": {
+            "symfony/console": "~3.4|~4.0"
+        },
+        "suggest": {
+            "symfony/console": "For validating YAML files using the lint command"
+        },
+        "time": "2018-04-08T08:21:29+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "telegram-bot/api",
+        "version": "2.2.10",
+        "version_normalized": "2.2.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TelegramBot/Api.git",
+            "reference": "1f7e67fb71d6ef6e4c9e90053fc49490b55a6b55"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TelegramBot/Api/zipball/1f7e67fb71d6ef6e4c9e90053fc49490b55a6b55",
+            "reference": "1f7e67fb71d6ef6e4c9e90053fc49490b55a6b55",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "codeception/codeception": "*",
+            "phpunit/phpunit": "4.*",
+            "squizlabs/php_codesniffer": "2.*"
+        },
+        "time": "2017-05-29T20:38:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TelegramBot\\Api\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ilya Gusev",
+                "email": "mail@igusev.ru",
+                "homepage": "https://php-cat.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP Wrapper for Telegram Bot API",
+        "homepage": "https://github.com/TelegramBot/Api",
+        "keywords": [
+            "bot",
+            "bot api",
+            "php",
+            "telegram"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.35.3",
+        "version_normalized": "1.35.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
+            "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/container": "^1.0",
+            "symfony/debug": "^2.7",
+            "symfony/phpunit-bridge": "^3.3"
+        },
+        "time": "2018-03-20T04:25:58+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.35-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            },
+            "psr-4": {
+                "Twig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "wsdl2phpgenerator/wsdl2phpgenerator",
+        "version": "3.4.0",
+        "version_normalized": "3.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wsdl2phpgenerator/wsdl2phpgenerator.git",
+            "reference": "558c8a66677c117de2db5f5a4ae7f327c4b67f67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wsdl2phpgenerator/wsdl2phpgenerator/zipball/558c8a66677c117de2db5f5a4ae7f327c4b67f67",
+            "reference": "558c8a66677c117de2db5f5a4ae7f327c4b67f67",
+            "shasum": ""
+        },
+        "require": {
+            "ext-soap": "*",
+            "php": ">=5.3.0",
+            "symfony/options-resolver": "~2.6|~3.0",
+            "symfony/polyfill-iconv": "^1.2"
+        },
+        "require-dev": {
+            "kasperg/phing-github": "0.2.*",
+            "phing/phing": "~2.7",
+            "php-vcr/php-vcr": "1.2 - 1.2.7|^1.3.1",
+            "php-vcr/phpunit-testlistener-vcr": "~1.1.2",
+            "phpunit/phpunit": "~4.4",
+            "psr/log": "~1.0",
+            "symfony/yaml": "~2.1"
+        },
+        "time": "2016-10-30T21:02:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Wsdl2PhpGenerator\\": [
+                    "src/",
+                    "lib/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Simple class library for generating php classes from a wsdl file.",
+        "keywords": [
+            "soap",
+            "wsdl"
+        ]
+    }
+]

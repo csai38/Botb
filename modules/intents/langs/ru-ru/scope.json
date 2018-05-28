@@ -1,0 +1,16 @@
+[
+    ["OnProject", "/проекту|проекта|пректом|проекте(.*)/"],
+    ["OnProjects", "/проектам(.*)/"],
+    ["OnProjectByMegaProject", "/проекту(.*)крупного проекта(.*)/"],
+    ["OnProjectsByMegaProject", "/проектам(.*)крупного проекта(.*)/"],
+    ["OnProjectByProgramm", "/проекту(.*)программы(.*)/"],
+    ["OnMegaProject", "/крупному\\sпроекту(.*)/"],
+    ["OnMegaProjectByProjectProtfolio", "/крупному проекту(.*)портфеля(.*)/"],
+    ["OnContractor", "/подрядчику(.*)/"],
+    ["OnContractorByProject", "/подрядчику(.*)на проекте(.*)/"],
+    ["OnContractorByProjectAndObject", "/подрядчику(.*)на\\sпроекте\\s(.*)\\sобъекта\\s(.*)/"],
+    ["OnContract", "/договору(.*)/"],
+    ["OnContracts", "/договорам(.*)/"],
+    ["OnContractByProject", "/договору(.*)на проекте(.*)/"],
+    ["OnObjectByProject", "/объекту(.*)проекта(.*)/"]
+]

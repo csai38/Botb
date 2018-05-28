@@ -1,0 +1,31 @@
+{
+  "name": "Stks/Botb",
+  "description": "Bot Builder",
+  "minimum-stability": "stable",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Sergei Karp",
+      "email": "skarp@tks.ms"
+    }
+  ],
+  "config": {
+    "vendor-dir": "libs"
+  },
+  "require": {
+    "telegram-bot/api": "2.2.10",
+    "ambalus/dbsimple": "dev-master",
+    "wsdl2phpgenerator/wsdl2phpgenerator": "3.4.0",
+    "geerlingguy/imap": "1.x-dev",
+    "php-ews/php-ews": "1.0.0",
+    "dmelo/pchart": "2.1.4",
+    "jonnyw/php-phantomjs": "v4.6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "BotbLib\\": "lib",
+      "Botb\\": "core",
+      "modules\\": "modules"
+    }
+  }
+}

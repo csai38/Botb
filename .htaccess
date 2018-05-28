@@ -1,0 +1,25 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php
+#IndexIgnore *
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+
+Options -Indexes
+
+<FilesMatch "server">
+    order deny,allow
+    deny from all
+</FilesMatch>
+RewriteEngine on
+#
+#RewriteCond %{REQUEST_FILENAME} -f
+#RewriteRule ^(.*\.)(js|css)$ jscsscomp/jscsscomp.php?q=$1$2 [L,NC]
+
+#Header always set Access-Control-Allow-Credentials: true
+#Header always set Access-Control-Allow-Origin "http://localhost:5055"
+#Header always set Access-Control-Allow-Methods "POST, GET, PUT, OPTIONS, PATCH, DELETE"
+#Header always set Access-Control-Allow-Headers "X-Accept-Charset,X-Accept,Content-Type"
+#Header always set Access-Control-Allow-Headers: "X-PINGOTHER"
+#RewriteEngine On
+#RewriteCond %{REQUEST_METHOD} OPTIONS
+#RewriteRule ^(.*)$ $1 [R=200,L,E=HTTP_ORIGIN:%{HTTP:ORIGIN}]]

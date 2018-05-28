@@ -11,13 +11,13 @@ date_default_timezone_set ( "Asia/Yekaterinburg" );
 define("TZ","+5");
 //Dependency settings
 //Telegram token bot API
-$config['ttoken']="349794094:AAHTD9AiGJKMtLUTEzdKqC8mwdcfm0khk5c";
+$config['ttoken']="";
 //SMS sending module IP adress
 $esms['ip']='192.168.0.1';
 //enable log query
 $config['log']=true;
 $config ['nfmail'] = "ALEX";
-$config ['fmail'] = "tbot@tks.ms";
+$config ['fmail'] = "";
 //Exchange Web server config
 $config ['ews_server'] = "";
 $config ['ews_login'] = "";
